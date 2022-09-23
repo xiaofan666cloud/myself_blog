@@ -1,0 +1,111 @@
+body{
+    background-color: yellowgreen;
+    background: url(221617-1645798577db75.jpg);
+}
+ul{
+    list-style: none;
+    position: absolute;
+    padding: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 800px;
+    height: 200px;
+}
+ul:hover{
+    cursor: pointer;/*?手  */
+}
+
+li{
+    float: left;
+    position: absolute;
+    left: 0px;
+    transition-duration: 0.4s;
+}
+.display1
+{
+    width: 100%;
+    height: 400px;
+    border: none;
+}
+.head_1
+{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(50, 53, 53);
+    border: 20px;
+    border-radius: 10px;
+}
+.head_1-1
+{
+    width: 10px;height: 10px;
+    background-color: rgb(52, 118, 172);
+    border-radius: 10px;
+    margin: 5px;
+}
+.body-2
+{
+    width: 100%; height: 400px;
+    border: none;
+    background-color: rgb(153, 236, 208,0.2);
+    display: flex;
+}
+.kuan
+{
+    width: 20%;
+    height: 100%;
+    background-color: rgb(48, 113, 148);
+}
+.display_1
+{
+    width: 80%;
+    height: 100%;
+}
+.dis_bottom
+{
+    height: 20px;
+    width: 100%;
+    background-color: rgb(48, 113, 148);
+    margin-bottom: 20px;
+}
+.bottom1
+{
+    background-color: rgba(23, 22, 19, 1);
+    width:1500px;
+    height: 100px;
+    margin-top: 0%;
+    color: aliceblue;
+}
+p
+{
+    font-size: small;
+}
+/* .next_board
+{
+    width: 100%;
+    height: 100px;
+    border: none;
+} */
+
+button
+{
+    width: 100%;
+    height: 40px;
+    background-color:rgb(50, 53, 53);
+    border-radius: 15px;
+    border: none;
+}
+button:hover
+{
+    background-color: rgb(88, 172, 169);
+}
+.a1{
+    color: rgb(229, 232, 234);
+    font-size: larger;
+    color: white;
+}
+.a1:hover{
+    color: black;
+}
